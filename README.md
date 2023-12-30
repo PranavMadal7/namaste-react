@@ -30,3 +30,20 @@
 -   HTTPs
 -   Tree Shaking - remove unused code
 -   Different dev and prod bundles
+
+# React.createElement => Object => HTMLElement (render)
+
+# JSX
+
+-   it is not HTML is JS
+-   it is a HTML or XML like syntax
+
+# React Component
+
+-   class based component
+-   functional based component
+
+# React Functional Component
+
+-   it is normal js function
+-   it should start with capital letter
