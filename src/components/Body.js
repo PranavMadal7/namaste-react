@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
@@ -47,7 +48,9 @@ const Body = () => {
 			</div>
 			<div className="res-container">
 				{filterRestaurants?.map((restaurant) => (
-					<RestaurantCard key={restaurant.info.id} restaurantInfo={restaurant} />
+					<Link key={restaurant.info.id} to={'/restaurants/' + restaurant.info.id}>
+						<RestaurantCard restaurantInfo={restaurant} />
+					</Link>
 				))}
 			</div>
 		</div>

@@ -61,8 +61,15 @@
 # Hooks in React
 
 -   Normal JS functions which react gives to us
--   useState() - it returns a array
--   useEffect() - cb functions will be called when the UI is rendered
+-   useState()
+    -   it returns a array - never creates useState inside the body component
+    -   try to call hooks at the top
+    -   never create useState inside the if else statement
+-   useEffect()
+
+    -   cb functions will be called when the UI is rendered(if dependency array is not available)
+    -   if there us dependency array than it will be called when condition is meet
+
 -
 
 create a shimmer UI component and show it until API call is completed
