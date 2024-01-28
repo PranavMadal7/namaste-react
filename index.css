@@ -16,6 +16,7 @@
 .nav-items > ul {
     display: flex;
     list-style: none;
+    margin-right: 10px;
 }
 
 .nav-items > ul > li {
@@ -47,4 +48,32 @@
 
 .res-logo {
     width: 100%;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+}
+
+.auth-btn {
+    cursor: pointer;
+}
+
+.search-res {
+    margin: 10px;
 }

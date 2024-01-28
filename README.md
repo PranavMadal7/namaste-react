@@ -47,3 +47,22 @@
 
 -   it is normal js function
 -   it should start with capital letter
+
+# Two Types of Exports/Imports
+
+-   Default export/import
+    export default Component
+    import Component from 'path';
+
+-   Named export/import
+    export constants Component;
+    import { Component } from 'path';
+
+# Hooks in React
+
+-   Normal JS functions which react gives to us
+-   useState() - it returns a array
+-   useEffect() - cb functions will be called when the UI is rendered
+-
+
+create a shimmer UI component and show it until API call is completed
